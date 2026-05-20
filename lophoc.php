@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 session_start();
 function connection_db(){
     $conn = mysqli_connect("localhost","root","","login_db");
@@ -53,7 +53,7 @@ mysqli_close($conn);
             max-width: 400px; width: 90%;
         }
         .btn-class {
-            display: block; background: #ff69b4;
+            display: block; background: #e00;
             color: white; padding: 30px; border-radius: 15px;
             font-size: 24px; font-weight: bold; margin: 20px 0;
             text-decoration: none;
